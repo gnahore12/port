@@ -1,0 +1,82 @@
+<html lang="fr">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="style.css" />
+		<title>
+			 Portfolio
+		</title>
+	</head>
+    <body>
+		<nav class="re">
+            <ul>
+				<a href="#Home">
+                    <li>home</li>
+                </a>
+				<a href="#work">
+                    <li>work</li>
+                </a>
+                <a href="#resume">
+                    <li>resume</li>
+                </a>
+                <a href="#contact">
+                    <li>contact</li>
+                </a>
+                <a href="#about">
+                    <li>about</li>
+                </a>
+			</ul>
+		</nav>
+        <section class="Home" id="Home">
+				<h1>Hey, je suis un étudiant à gomycode.</h1>
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta
+					debitis, facilis aliquam voluptates fugiat ipsum odio, nihil
+					architecto fuga laboriosam tempore necessitatibus quas? Incidunt nobis
+					ducimus vel, delectus sit quod Lorem ipsum dolor sit amet consectetur
+					adipisicing elit.
+				</p>
+				<img src="img/main.jpeg.jpg" alt="presentation-image" class="img"/>
+            
+            <section class="work"id="work">
+				<iframe width="1200" height="560" src="https://www.youtube.com/embed/zH_kk8ZzeFo?si=s2x83Kef3JqJE-nL"></iframe>
+			</section>
+			<section class="resume" id="resume">
+			    <audio src="percet-time.mp3" controls>
+			    </audio>
+			</section>
+			<section class="contact" id="contact">
+				<h1>Conactez-nous</h1>
+				<form action="/page-traitement-donnees" method="post">
+					<div>
+					<label for="nom">Votre nom</label>
+					<input type="text" id="nom" name="nom" placeholder="Michel" required>
+					</div>
+					<label for="email">Votre e-mail</label>
+                    <input type="email" id="email" name="email" placeholder="monadresse@mail.com" required>
+                    </div>
+                    <div>
+                    <label for="sujet">Quel est le sujet de votre message ?</label>
+                    <select name="sujet" id="sujet" required>
+                    <option value="" disabled selected hidden>Choisissez le sujet de votre message</option>
+                    <div>
+                    <label for="message">Votre message</label>
+                    <textarea id="message" name="message" placeholder="Bonjour, je vous contacte car...." required></textarea>
+                    </div>
+                    <div>
+                    <button type="submit">Envoyer mon message</button>
+                    </div>
+                    </form>
+			</section>
+		</section>
+        <footer>
+			<div class="about" id="about">
+				<h3>Mes services</h3>
+				<p>Développement de projet </p>
+				<p>Prestation de cv</p>
+				<p>Investissement en crypto</p>
+			</div>
+		</footer>
+	</body>
+</html>
